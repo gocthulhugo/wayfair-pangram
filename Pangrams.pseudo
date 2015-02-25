@@ -1,0 +1,58 @@
+Pangrams
+
+    A pangram or holoalphabetic sentence for a given alphabet is a sentence using every letter of the alphabet at least once. Pangrams have been used to display typefaces, test equipment, and develop skills in handwriting, calligraphy, and keyboarding.
+
+    Your task is to write a function that takes in an alphabet and a sentence and determines whether or not it is a Pangram. You have a limited language with certain string functions built in. The Language you are using only has Strings, Characters, Integers, Arrays, and Boolean native data structures. The function returns “true” or “false” as a string to console.
+
+    Provided String Functions:
+        String.Substring(Start, Length) returns a String
+        String.Length() returns an Integer
+        String.Contains(Target) returns a Boolean
+        String.Replace(Target, Replacement) returns a String
+        String.ToUpperCase() returns a String
+        String.ToLowerCase() returns a String
+        String.Split(Delimiter) returns an Array of Strings
+
+    You given inputs are:
+        Sentence = “The quick brown fox jumps over the lazy dog.”
+        Alphabet = [“a”, “b”, “c”, “d”, “e”, “f”, “g”, “h”, “i”, “j”, “k”, “l”, “m”, “n”, “o”, “p”, “q”, “r”, “s”, “t”, “u”, “v”, “w”, “x”, “y”, “z”]
+
+    Example output:
+        True
+        
+    Bonus:
+        Modify your function to also give the counts of each letter in the alphabet.
+    Bonus example output:
+        True
+        A: 1
+        B: 1
+        C: 1
+        D: 1
+        E: 3
+        F: 1
+        G: 1
+        H: 2
+        I: 1
+        J: 1
+        K: 1
+        L: 1
+        M: 1
+        N: 1
+        O: 4
+        P: 1
+        Q: 1
+        R: 2
+        S: 1
+        T: 2
+        U: 1
+        V: 1
+        W: 1
+        X: 1
+        Y: 1
+        Z: 1
+
+-(String) isPangram(Sentence, Alphabet){
+
+// Code here
+   
+}
